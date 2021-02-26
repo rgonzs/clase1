@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
     <title>Formularios</title>
   </head>
   <body>
@@ -21,18 +22,49 @@
             <label for="femenino">Femenino</label>
             <input type="radio" name="genero" id="femenino" value="femenino" />
             <label for="masculino">Masculino</label>
-            <input type="radio" name="genero" id="masculino" value="masculino"/>
+            <input
+              type="radio"
+              name="genero"
+              id="masculino"
+              value="masculino"
+            />
           </div>
           <div>
-              <h4>Deportes Favoritos</h4>
+            <h4>Deportes Favoritos</h4>
           </div>
           <div>
             <label for="tenis">Tenis</label>
-            <input type="checkbox" name="tenis" id="tenis" value="tenis">
+            <input type="checkbox" name="tenis" id="tenis" value="tenis" />
             <label for="baloncesto">Baloncesto</label>
-            <input type="checkbox" name="baloncesto" id="baloncesto" value="baloncesto">
+            <input
+              type="checkbox"
+              name="baloncesto"
+              id="baloncesto"
+              value="baloncesto"
+            />
             <label for="futbol">Futbol</label>
-            <input type="checkbox" name="futbol" id="futbol" value="futbol">
+            <input type="checkbox" name="futbol" id="futbol" value="futbol" />
+          </div>
+
+          <div>
+            <label for="coches">Marcas de coches</label>
+            <select name="coches" id="coches">
+              <option value="volvo">volvo</option>
+              <option value="nissan">nissan</option>
+              <option value="toyota">toyota</option>
+              <option value="lamborgini">lamborgini</option>
+            </select>
+          </div>
+
+          <div>
+              <label for="lenguajes">Lenguajes de programacion</label>
+              <select name="lenguajes" id="lenguajes">
+                  <option value="javascript">JS</option>
+                  <option value="typescript">TypeScript</option>
+                  <option value="java">Java</option>
+                  <option value="csharp">C#</option>
+                  <option value="cplusplus">C++</option>
+              </select>
           </div>
         </div>
       </form>
