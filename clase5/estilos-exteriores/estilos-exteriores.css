@@ -1,3 +1,19 @@
 p {
     color: violet;
 }
+
+h1 {
+    color: brown;
+    font-size: 100px;
+    
+}
+
+body {
+    background-color: aquamarine;
+    text-align: start;
+}
+
+header {
+    background-color: blueviolet;
+    text-align: center;
+}
