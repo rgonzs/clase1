@@ -1,0 +1,33 @@
+body{
+    background-color: aliceblue;
+
+}
+
+#name {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+
+.class1 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.class2 {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+
+}
+
+#foo {
+   background-color: aqua; 
+   text-align: center;
+}
