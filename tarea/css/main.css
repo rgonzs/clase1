@@ -20,6 +20,10 @@ header {
   border-color: cornflowerblue;
 }
 
+.personal-photo > img:hover {
+  width: 250px;
+}
+
 .navbar {
   background-color: aquamarine;
   padding: 15px;
@@ -28,6 +32,10 @@ header {
   color: black;
   text-decoration: none;
   border-radius: 10px;
+}
+
+.navbar:hover {
+  color: red;
 }
 
 .body-image {
