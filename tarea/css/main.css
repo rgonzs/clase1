@@ -52,15 +52,13 @@ header {
 }
 
 .container {
-  display: flex;
-  flex-grow: 2;
   text-align: center;
-  justify-content: space-between;
   padding: 30px;
   width: 768px;
   height: 400px;
   margin: 0 auto;
 }
+
 
 .description {
   font-size: 20px;
@@ -68,7 +66,9 @@ header {
   border: 4px;
   border-style: solid;
   width: 45%;
+  height: 65%;
   background-color: lightgreen;
+  float: left;
 }
 
 .frase {
@@ -77,8 +77,10 @@ header {
   border: 4px;
   border-style: solid;
   width: 45%;
+  height: 65%;
   border-radius: 20px;
   background-color: cornflowerblue;
+  float: right;
 }
 
 footer {
