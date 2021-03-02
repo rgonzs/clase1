@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+#texto-en-negrita {
+    font-weight: bolder;
+}
+
+#texto-en-italica {
+    font-style: italic;
+}
+#autor{
+    font-weight: bold;
+}
+
+.estilo-de-letra {
+    font-family: 'Lato', sans-serif;
+}

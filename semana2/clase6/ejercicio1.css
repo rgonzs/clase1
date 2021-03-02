@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+#nombre {
+    color: red;
+}
+
+#cancionFavorita {
+    font-family: Lato;
+}
+
+#parrafo1 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+}
+
+#parrafo2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+}
+
+#parrafo3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: bisque;
+}
+
+#parrafo4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: violet;
+}
+
+#nombreCompleto {
+    font-weight: bolder;
+    font-size: 30px;
+}
