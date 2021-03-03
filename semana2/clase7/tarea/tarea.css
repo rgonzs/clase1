@@ -1,0 +1,37 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/7d/80/cb/7d80cb80e5f7e5522b06271893905c71.png");
+  width: 100vw;
+  height: 100vw;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+#principal-title {
+  color: #9df7e5;
+  text-align: center;
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cancion {
+  text-align: center;
+}
+
+#cancion > img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    color: #9df7e5;
+  height: 10vh;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tower_Bridge_London_Feb_2006.jpg/1920px-Tower_Bridge_London_Feb_2006.jpg");
+  /* background-repeat: no-repeat; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  bottom: 0;
+  padding-top: 30px;
+  position: absolute;
+  width: 100%;
+}

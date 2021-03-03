@@ -1,0 +1,31 @@
+body {
+    background-color: lightskyblue;
+}
+
+#primer-parrafo {
+    background-color: red;
+    max-width: 50%;
+}
+
+#segundo-parrafo {
+    background-color: green;
+    opacity: 0.5;
+}
+
+#tercer-parrafo {
+    background-color: blue;
+    opacity: 0.1;
+    color: black;
+}
+
+#cuarto-parrafo {
+    background: rgba(35, 128, 6, 0.4);
+}
+
+#contenedor {
+    height: 400px;
+    width: 350px;
+    background-image: url();
+    background-size: contain;
+    background-repeat: no-repeat;
+}
