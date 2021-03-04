@@ -1,0 +1,20 @@
+body {
+    background-image: linear-gradient(#A2FAA3,#92C9B1, #4F759B, #5D5179);
+}
+
+#container {
+    text-align: center;
+}
+
+#withgray {
+    filter: grayscale(100%);
+    width: 700px;
+}
+
+#withoutgray {
+    width: 700px;
+}
+#withblur {
+    width: 700px;
+    filter: blur(20px);
+}
