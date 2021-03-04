@@ -1,0 +1,9 @@
+#tarea1 {
+    width: 250px;
+    height: 695px;
+    border-radius: 68%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    background-image: linear-gradient(to top left ,red,blue,yellow, aquamarine,orange ,pink, brown);
+}
