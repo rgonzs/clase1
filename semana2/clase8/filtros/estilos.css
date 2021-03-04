@@ -6,14 +6,16 @@ body {
     text-align: center;
 }
 
+#withoutgray {
+    width: 700px;
+    transform: rotate(180deg);
+}
+
 #withgray {
     filter: grayscale(100%);
     width: 700px;
 }
 
-#withoutgray {
-    width: 700px;
-}
 #withblur {
     width: 700px;
     filter: blur(20px);
