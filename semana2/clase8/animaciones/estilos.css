@@ -1,44 +1,60 @@
-#elemento {
-    width: 100%;
-    height: 100%;
+body {
     animation: mi-animacion 5s infinite;
 }
 
+#container {
+    text-align: center;
+}
+
+
 img {
     width: 400px;
-    animation: circulo 1s infinite;
+    animation: circulo 5s infinite;
 }
 
 @keyframes circulo {
     0% {
         border-radius: 10%;
+        transform: skewX(40deg);
     }
     15% {
-        border-radius: 20%;
+        border-radius: 15%;
+        transform: skewX(25deg) translateX(200px);
     }
     30% {
         border-radius: 30%;
+        transform: skewX(10deg) translateY(200px) translateX(200px);
     }
     45% {
         border-radius: 45%;
+        transform: skewX(0deg) translateX(-200px) translateY(200px);
     }
     60% {
         border-radius: 60%;
+        transform: skewX(10deg) translateX(-200px);
     }
     75% {
         border-radius: 75%;
-    }
-    90% {
-        border-radius: 90%;
+        transform: skewX(25deg);
     }
     100% {
         border-radius: 100%;
+        transform: skewX(40deg);
     }
 }
 
 @keyframes mi-animacion {
     0% {
         background-color: brown;
+    }
+    25% {
+        background-color: red;
+    }
+    50% {
+        background-color: aqua;
+    }
+    75% {
+        background-color: blue;
     }
     100% {
         background-color: cadetblue;
