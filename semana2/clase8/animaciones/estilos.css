@@ -4,6 +4,38 @@
     animation: mi-animacion 5s infinite;
 }
 
+img {
+    width: 400px;
+    animation: circulo 1s infinite;
+}
+
+@keyframes circulo {
+    0% {
+        border-radius: 10%;
+    }
+    15% {
+        border-radius: 20%;
+    }
+    30% {
+        border-radius: 30%;
+    }
+    45% {
+        border-radius: 45%;
+    }
+    60% {
+        border-radius: 60%;
+    }
+    75% {
+        border-radius: 75%;
+    }
+    90% {
+        border-radius: 90%;
+    }
+    100% {
+        border-radius: 100%;
+    }
+}
+
 @keyframes mi-animacion {
     0% {
         background-color: brown;
