@@ -1,0 +1,31 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: aliceblue;
+}
+
+#principal-box {
+  width: 1000px;
+  height: 1000px;
+  text-align: center;
+  background-color: #6279B8;
+}
+#title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#photo {
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+  border: solid red 10px;
+  margin-bottom: 30px;
+}
+#poema {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border: solid blue 1px;
+}
+#city {
+  background-color: #49516F;
+}
