@@ -1,0 +1,30 @@
+#container {
+    background-color: #C4EBC8;
+    width: 500px;
+    height: 700px;
+    border: solid #5F4BB6 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+h2{
+    margin: 10px;
+    padding-top: 50px;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    border: solid #86A5D9 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#description {
+    border: dashed #A52422 5px;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    background-color: antiquewhite;
+    overflow: auto;
+}
