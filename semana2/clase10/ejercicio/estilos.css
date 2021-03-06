@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
 
-#container{
-    width: 1000px;
-    align-items: center;
-}
-
 body {
   background-color: #dee2e6;
+}
+
+#container {
+  width: 1000px;
+  margin: 0 auto;
 }
 
 header {
@@ -15,24 +15,23 @@ header {
   font-weight: bolder;
   padding: 20px;
   background-color: #6c757d;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: auto;
 }
 
 h1 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #photo-container {
-  padding-top: 70px;
+  padding-top: 40px;
   text-align: center;
 }
 
 #photo {
-    filter: grayscale();
-    width: 600px;
+  filter: grayscale(100%);
+  width: 700px;
 }
