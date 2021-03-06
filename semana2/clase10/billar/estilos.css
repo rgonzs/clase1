@@ -1,0 +1,23 @@
+#mesa {
+    width: 90vw;
+    position: absolute;
+}
+
+#palo {
+    top: 500px;
+    left: 200px;
+    width: 600px;
+    position: relative;
+    animation: animaciones-palo 1s;
+    transform: rotate(45deg);
+}
+
+@keyframes animaciones-palo {
+    0% {
+        transform: translateX(-20px) rotate(-45deg);
+    }
+
+    20% {
+        transform: translateY(80px) rotate(-45deg);
+    }
+}
