@@ -1,75 +1,102 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Formulario de Inicio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-</head>
+    <link rel="stylesheet" type="text/css" media="screen" href="estilos.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Formulario de Inicio</h1>
+      <h1>Formulario de Inicio</h1>
     </header>
     <main>
-        <div id="form-container">
-            <form>
-                <h3>Una pequeña encuesta</h3>
-                <div class="pregunta">
-                    <label for="name">*Nombre:</label>
-                    <input type="text" name="name" id="name" placeholder="Ingresa tu nombre" />
-                </div>
-                <div class="pregunta">
-                    <label for="email">*Email:</label>
-                    <input type="email" name="email" id="email" placeholder="Ingresa tu email" />
-                </div>
-                <div class="pregunta">
-                    <label for="edad">*Edad:</label>
-                    <input type="number" name="edad" id="edad" placeholder="Ingresa tu edad" />
-                </div>
-                <div class="pregunta">
-                    <label for="roles">Cual es tu rol:</label>
-                    <select name="roles" id="roles">
-                        <option value="student">Estudiante</option>
-                        <option value="teacher">Profesor</option>
-                    </select>
-                </div>
-                <div class="pregunta">
-                    *Que tanto te ha gustado CodiGO,<br />
-                        lo recomendarias a un amigo?
-                    <input type="radio" name="recommend" id="yes" value="yes" />
-                    <label for="yes">Si</label>
+      <div id="form-container">
+        <form>
+          <h3>Una pequeña encuesta</h3>
+          <div class="pregunta input-field">
+            <label for="name">*Nombre:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Ingresa tu nombre"
+              class="input-field"
+            />
+          </div>
+          <div class="pregunta input-field">
+            <label for="email">*Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Ingresa tu email"
+              class="input-field"
+            />
+          </div>
+          <div class="pregunta input-field">
+            <label for="edad">*Edad:</label>
+            <input
+              type="number"
+              name="edad"
+              id="edad"
+              placeholder="Ingresa tu edad"
+              class="input-field"
+            />
+          </div>
+          <div class="pregunta">
+            <label for="roles">Cual es tu rol:</label>
+            <select name="roles" id="roles" class="input-field">
+              <option value="student">Estudiante</option>
+              <option value="teacher">Profesor</option>
+            </select>
+          </div>
+          <div class="pregunta">
+            *Que tanto te gusta el frontend?
+            <input type="radio" name="recommend" id="mucho" value="mucho" />
+            <label for="mucho">Mucho</label>
 
-                    <input type="radio" name="recommend" id="no" value="no" />
-                    <label for="no">No</label>
+            <input type="radio" name="recommend" id="algo" value="algo" />
+            <label for="algo">Algo</label>
 
-                    <input type="radio" name="recommend" id="maybe" value="maybe" />
-                    <label for="maybe">Talvez</label>
-                </div>
-                <div class="pregunta">
-                    <label for="roles">Que es lo que mas te gusta del frontend?:</label>
-                    <select name="roles" id="roles">
-                        <option value="student">CSS</option>
-                        <option value="teacher">HTML</option>
-                        <option value="teacher">JS</option>
-                        <option value="teacher">React</option>
-                    </select>
-                </div>
-                <div class="pregunta">Que es lo que se deberia <br>implementar en el futuro?
-                    <input type="checkbox" name="futuro" id="android" value="android">
-                    <label for="android">Android</label>
-                    <input type="checkbox" name="futuro" id="backend" value="backend">
-                    <label for="backend">Backend</label>
-                    <input type="checkbox" name="futuro" id="java" value="java">
-                    <label for="java">Java</label>
-                </div>
-
-                <button>Listo, Enviar</button>
-            </form>
-        </div>
+            <input type="radio" name="recommend" id="poco" value="poco" />
+            <label for="poco">Poco</label>
+          </div>
+          <div class="pregunta">
+            <label for="roles">Que es lo que mas te gusta del frontend?:</label>
+            <select name="roles" id="roles">
+              <option value="css">CSS</option>
+              <option value="html">HTML</option>
+              <option value="js">JS</option>
+              <option value="react">React</option>
+            </select>
+          </div>
+          <div class="pregunta" id="form">
+            Que es lo que se deberia implementar en el futuro?
+            <div id="contenido-checkbox">
+              <input
+                type="checkbox"
+                name="futuro"
+                id="android"
+                value="android"
+              />
+              <label for="android">Android</label>
+              <input
+                type="checkbox"
+                name="futuro"
+                id="backend"
+                value="backend"
+              />
+              <label for="backend">Backend</label>
+              <input type="checkbox" name="futuro" id="java" value="java" />
+              <label for="java">Java</label>
+            </div>
+          </div>
+          <button>Listo, Enviar</button>
+        </form>
+      </div>
     </main>
-</body>
-
+  </body>
 </html>
