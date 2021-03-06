@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+
+body {
+  background-color: #457b9d;
+}
+
+* {
+    font-family: Nunito;
+    text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.pregunta {
+    margin-bottom: 20px;
+}
+
+#frontend {
+    margin-bottom: 20px ;
+}
+
+#form-container {
+  background-color: #f1faee;
+  width: 70%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+label {
+    margin-right: 10px;
+}
+input {
+    margin-left: 10px;
+}
+
+button {
+    flex: content;
+    margin-top: 100px;
+}

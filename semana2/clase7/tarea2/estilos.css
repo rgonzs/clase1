@@ -1,0 +1,24 @@
+body {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#title {
+    border-style: double dashed dashed dotted;
+}
+
+#parrafo1 {
+    border-style: inset;
+}
+
+#parrafo2 {
+    border-style: double;
+}
+
+#parrafo3 {
+    border-style: solid;
+}
+
+#parrafo4 {
+    border-style: dotted double dotted double;
+}
