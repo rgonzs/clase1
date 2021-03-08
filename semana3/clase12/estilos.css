@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+
+header {
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: brown;
+}
+
+main {
+  background-image: url("./assets/images/background.webp");
+  width: 100vw;
+  height: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
