@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 * {
   margin: 0;
 }
@@ -10,14 +12,87 @@ header {
   right: 0;
   display: flex;
   justify-content: space-between;
-  background-color: brown;
+  background-color: #37393a;
+  align-items: center;
 }
 
 main {
   background-image: url("./assets/images/background.webp");
-  width: 100vw;
+  width: 100%;
   height: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* position: absolute; */
+}
+/* nav {
+    margin-top: 20px;
+} */
+
+#logo {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+a:hover {
+  color: #0496ff;
+}
+a:active {
+  color: darkblue;
+}
+
+#nombre {
+  text-align: center;
+  padding-top: 150px;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+}
+
+#perfil-container {
+    padding-top: 40px;
+    margin: 0 auto;
+    text-align: center;    
+}
+
+#perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: white solid 5px;
+}
+
+#botones {
+    margin: 0 auto;
+    width: 700px;
+    /* position: relative; */
+    top: 20% !important;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boton {
+    border-radius: 10px;
+    border: 2px solid #37393a;
+    font-size: 30px;
+    padding: 10px;
+    background-color: azure;
+}
+.boton:hover {
+    background-color: cadetblue;
+}
+
+.boton:active {
+    background-color: blue;
+    color: azure;
 }
