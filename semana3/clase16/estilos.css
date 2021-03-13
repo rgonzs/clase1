@@ -3,7 +3,7 @@
     --horizontal: row;
     --vertical: column;
     --caja-flexible: flex;
-    --background-color-footer: 
+    --color-texto-footer: rgba(124, 123, 123, 0.925);
 }
 
 * {
@@ -136,12 +136,12 @@ footer {
 }
 .texto-footer {
   margin: 20px;
-  color: rgba(124, 123, 123, 0.925);
+  color: var(--color-texto-footer);
 }
 .texto-footer-2 {
   margin-top: 10px;
   margin-bottom: 5px;
-  color: rgba(124, 123, 123, 0.925);
+  color: var(--color-texto-footer);
 }
 #sub-footer-2 {
   display: flex;
