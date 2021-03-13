@@ -18,7 +18,7 @@ header {
   width: 100%;
 }
 nav {
-  display: flex;
+  display: var(--caja-flexible);
   flex-direction: var(--horizontal);
 }
 a {
@@ -50,7 +50,7 @@ a {
   color: white;
 }
 main {
-  display: flex;
+  display: var(--caja-flexible);
   flex-direction: var(--vertical);
   align-items: center;
   justify-content: space-between;
@@ -62,7 +62,7 @@ main {
 }
 
 #buscador {
-  display: flex;
+  display: var(--caja-flexible);
   border: 1px solid rgba(223, 223, 223, 0.87);
   border-radius: 20px;
   margin-top: 20px;
@@ -122,7 +122,7 @@ input:focus {
 }
 
 footer {
-  display: flex;
+  display: var(--caja-flexible);
   bottom: 0;
   position: fixed;
   width: 100%;
@@ -144,7 +144,7 @@ footer {
   color: var(--color-texto-footer);
 }
 #sub-footer-2 {
-  display: flex;
+  display: var(--caja-flexible);
   flex-direction: var(--horizontal);
   justify-content: space-around;
   margin-bottom: 5px;
