@@ -1,5 +1,5 @@
 :root {
-    --colorBotones: rgba(247, 247, 247, 0.925)
+    --colorBotones: rgba(247, 247, 247, 0.925);
     --horizontal: row;
     --vertical: column;
     --caja-flexible: flex;
