@@ -1,0 +1,53 @@
+html {
+  background-color: #34568b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+select {
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+#title {
+  color: aliceblue;
+}
+
+#subtitle {
+  color: aliceblue;
+  text-decoration: solid;
+}
+
+main {
+  width: 100%;
+}
+
+p {
+  margin: 0 auto;
+  border: 0.2rem solid white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 60%;
+  color: aliceblue;
+  background-color: dimgrey;
+  font-size: 1.2rem;
+}
+
+p:empty{
+    display: none;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    color: aliceblue;
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+}
