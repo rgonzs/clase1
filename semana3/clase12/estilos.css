@@ -92,7 +92,7 @@ a:active {
   border-radius: 10px;
   border: 2px solid #37393a;
   /* font-size: 30px; */
-  font-size: 1.675rem;
+  font-size: 1.275rem;
   padding: 10px;
   background-color: azure;
 }
@@ -127,7 +127,7 @@ a:active {
   margin-bottom: -7px;
 }
 
-footer {  
+footer {
   width: 100%;
   bottom: 0;
   left: 0;
@@ -137,7 +137,7 @@ footer {
 }
 
 .sub-footer {
-  display: flex; 
+  display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
   display: flex;
@@ -163,22 +163,111 @@ footer {
 
 @media only screen and (max-width: 600px) {
   header {
-    background-color: cyan;
+    background-color: #0496ff;
     width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #botones {
+    display: flex;
+    /* margin: 0 auto; */
+    min-width: 60%;
+    /* top: 20% !important; */
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+
+  .boton {
+    border-radius: 25px;
+    border: 2px solid #37393a;
+    font-size: 1.275rem;
+    background-color: azure;
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   main {
     background: url(assets/images/fondo2.jpg) no-repeat center center fixed;
     width: 100%;
     color: azure;
   }
+
+  #botones {
+    display: flex;
+    min-width: 60%;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .boton {
+    border-radius: 25px;
+    border: 2px solid #666a86;
+    font-size: 1.275rem;
+    background-color: azure;
+  }
+  .boton:hover {
+    background-color: 788aa3;
+  }
+
+  .boton:active {
+    background-color: #f2fdff;
+    color: black;
+  }
+
+  #parrafo {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    padding: 1.875rem;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: white;
+    min-width: 70%;
+    opacity: 0.8;
+    box-sizing: border-box;
+  }
+  .sub-footer {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFBF00;
+  }
+  #sub-footer-3 {
+    display: flex;
+    flex-direction: row;
+  }
+  .texto-footer {
+    font-size: larger;
+    color: white;
+  }
+  .red-social {
+    fill: white !important;
+    width: 50px;
+    /* margin: 10px; */
+  }
 }
 
 @media only screen and (min-width: 992px) {
   footer {
-    background-color: darkgoldenrod ;
+    background-color: #FFBF00;
   }
 }
 

@@ -1,0 +1,95 @@
+#contenedor-horizontal {
+  display: flex;
+  flex-direction: row;
+  background-color: aquamarine;
+}
+
+#contenedor-horizontal-header {
+  display: flex;
+  flex-direction: row;
+  background-color: darkorchid;
+  justify-content: space-between;
+}
+
+#contenedor-horizontal-2 {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  justify-content: flex-end;
+}
+
+#contenedor-horizontal-inicio {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(106, 243, 14);
+  justify-content: flex-start;
+}
+
+#contenedor-horizontal-centro {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(214, 51, 51);
+  justify-content: center;
+}
+
+#contenedor-horizontal-final {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(231, 235, 14);
+  justify-content: flex-end;
+}
+
+#contenedor-vertical {
+  display: flex;
+  flex-direction: column;
+  background-color: cyan;
+}
+
+#contenedor-horizontal-expansor {
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+}
+
+#elemento1 {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  flex-grow: 1;
+  background-color: tomato;
+}
+
+#elemento2 {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  flex-grow: 2;
+  background-color: tomato;
+}
+#elemento3 {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  flex-grow: 1;
+  background-color: tomato;
+}
+
+#contenedor-horizontal-envoltorio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: darksalmon;
+}
+
+#contenedor-horizontal-alinear-items {
+  display: flex;
+  background-color: rgb(84, 84, 231);
+  align-items: flex-end;
+}
+
+.elemento {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: tomato;
+}
