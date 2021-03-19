@@ -1,31 +1,34 @@
-// for (let numero = 0; numero < 300; numero++) {
-//   if (numero % 2 === 0) {
-//     console.log(numero);
-//   }
-// }
+let alumnos_favoritos = [
+  "Cristiano",
+  "Messi",
+  "Maradona",
+  "Peter",
+  "Pele",
+  "Iniesta",
+];
+let informacion = "Mis alumnos favoritos son : ";
 
-// for (let numero = 0; numero <= 1000; numero++) {
-//   if (numero % 3 === 0 || numero % 5 === 0 || numero % 7 === 0 ) {
-//     console.log(numero)
-//   }
-// }
-let suma = 0;
-for (let numero = 0; numero < 1000; numero++) {
+const texto = document.querySelector("p");
 
-  if (numero % 3 === 0 || numero % 5 === 0) {
-    suma = suma + numero
-    console.log(numero)
-  }
-
+for (let indice = 0; indice < alumnos_favoritos.length; indice++) {
+  informacion += alumnos_favoritos[indice] + ", ";
 }
-let suma2 = 0;
-let numero2 = 0;
 
-while (numero2 < 1000) {
-  if (numero2 % 3 === 0 || numero2 % 5 === 0) {
-    suma2 = suma2 + numero2;
-    console.log(numero2);
-  }
-  numero2++
+texto.textContent = informacion;
+
+let arrayLetras = [
+  "palabra-a",
+  "palabra-e",
+  "palabra-i",
+  "palabra-o",
+  "palabra-u",
+];
+let fraseVocales = "Mis vocales son: ";
+const miTitulo = document.querySelector("h1");
+const letras = document.getElementById("letras");
+
+for (let i = 0; i < arrayLetras.length; i++) {
+  fraseVocales = fraseVocales + arrayLetras[i] + " ";
+  setTimeout(() => (letras.innerHTML += `<p>${arrayLetras[i]}</p>`), 1000 * i);
 }
-console.log(suma2);
+miTitulo.textContent = fraseVocales;
