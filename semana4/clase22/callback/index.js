@@ -18,14 +18,14 @@ function empezarCuentaAtras() {
   let time = setInterval(function () {
     segundos--;
     imprimirSegundos();
-    if (segundos===0){
-        clearInterval(time)
+    if (segundos === 0) {
+      clearInterval(time);
     }
   }, 2000);
 }
 
 function imprimirSegundos() {
-    console.log(segundos)
+  console.log(segundos);
 }
 
-empezarCuentaAtras()
+empezarCuentaAtras();

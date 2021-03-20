@@ -27,8 +27,22 @@ let fraseVocales = "Mis vocales son: ";
 const miTitulo = document.querySelector("h1");
 const letras = document.getElementById("letras");
 
-for (let i = 0; i < arrayLetras.length; i++) {
-  fraseVocales = fraseVocales + arrayLetras[i] + " ";
-  setTimeout(() => (letras.innerHTML += `<p>${arrayLetras[i]}</p>`), 1000 * i);
-}
+// for (let i = 0; i < arrayLetras.length; i++) {
+//   fraseVocales = fraseVocales + arrayLetras[i] + " ";
+//   setTimeout(() => (letras.innerHTML += `<p>${arrayLetras[i]}</p>`), 1000 * i);
+// }
+
+let count = setInterval(function() {
+
+  if (arrayLetras.length > 0) {
+      letras.innerHTML += (`<p>${arrayLetras[0]}</p>`);
+      arrayLetras.shift();
+  } else {
+      clearInterval(count)
+      alert("Se detuvo");
+  }
+
+}, 1500);
+
+
 miTitulo.textContent = fraseVocales;
